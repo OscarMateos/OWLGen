@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="owlgenerator.java.merger.OntologyData" project="OWLGenerator" 
+    file="/OWLGenerator/src/owlgenerator/java/merger/OntologyData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="711" width="479" x="169" y="384"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="owlgenerator.java.merger.OntologyEquivalences" project="OWLGenerator" 
+    file="/OWLGenerator/src/owlgenerator/java/merger/OntologyEquivalences.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="919" y="892"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="owlgenerator.java.merger.OntologyMerger" project="OWLGenerator" 
+    file="/OWLGenerator/src/owlgenerator/java/merger/OntologyMerger.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="603" width="492" x="674" y="182"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="owlgenerator.java.merger.StringSimilarityDistance" project="OWLGenerator" 
+    file="/OWLGenerator/src/owlgenerator/java/merger/StringSimilarityDistance.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="405" y="293"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="5" language="java" name="owlgenerator.java.merger" project="OWLGenerator" 
+    file="/OWLGenerator/src/owlgenerator/java/merger" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="549" y="195"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="org.semanticweb.owlapi.model" project="OWLGenerator" 
+    file="C:/outaspace/workspace/owlapi-osgidistribution-4.0.1.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1009" y="126"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="org.semanticweb.owlapi.search" project="OWLGenerator" 
+    file="C:/outaspace/workspace/owlapi-osgidistribution-4.0.1.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="372" y="127"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="org.semanticweb.owlapi.util" project="OWLGenerator" 
+    file="C:/outaspace/workspace/owlapi-osgidistribution-4.0.1.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="573" y="122"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="org.semanticweb.owlapi.formats" project="OWLGenerator" 
+    file="C:/outaspace/workspace/owlapi-osgidistribution-4.0.1.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="777" y="123"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="10" language="java" name="edu.stanford.nlp.util" project="OWLGenerator" 
+    file="C:/outaspace/workspace/stanford-corenlp-3.6.0.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="238" y="186"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

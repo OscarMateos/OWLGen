@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="../owlapi-osgidistribution-4.0.1.jar;../slf4j-simple-1.6.2.jar;../commons-lang3-3.4.jar;../stanford-corenlp-3.6.0.jar;../stanford-english-corenlp-2016-01-10-models.jar;../commons-validator-1.5.0.jar;../XADisk.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="owlgenerator.java.core.webode,owlgenerator.tests.ontoTag.merge,owlgenerator.java.inverserelations,owlgenerator.java.merger,owlgenerator.java.util,owlgenerator.java.core,owlgenerator.tests.ontoTag,owlgenerator.tests.ontoLing,owlgenerator.java.footnotes" source="1.8" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

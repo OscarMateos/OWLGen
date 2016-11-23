@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/owlapi-osgidistribution-4.0.1.jar" sourcepath="C:/outaspace/workspace/OWLGenerator/lib/owlapi-osgidistribution-4.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/outaspace/workspace/OWLGenerator/lib/owlapi-distribution-4.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/slf4j-simple-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/commons-lang3-3.4.jar" sourcepath="C:/outaspace/workspace/OWLGenerator/lib/commons-lang3-3.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/outaspace/workspace/OWLGenerator/lib/commons-lang3-3.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/stanford-corenlp-3.6.0.jar" sourcepath="C:/outaspace/workspace/OWLGenerator/lib/stanford-corenlp-3.6.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/outaspace/workspace/OWLGenerator/lib/stanford-corenlp-3.6.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/stanford-english-corenlp-2016-01-10-models.jar"/>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/commons-validator-1.5.0.jar" sourcepath="C:/outaspace/workspace/OWLGenerator/lib/commons-validator-1.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/outaspace/workspace/OWLGenerator/lib/commons-validator-1.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/outaspace/workspace/OWLGenerator/lib/XADisk.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
